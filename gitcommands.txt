@@ -10,3 +10,11 @@ git config --global user.name
 git config --global user.email
 git config --global credential.helper store
 
+2.5
+alias gs='git status'
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout'
+
