@@ -1,0 +1,8 @@
+#Ignore file name test
+test.txt
+
+#Ignore folder name /test
+test/
+
+#Igore all .java files
+#*.java
