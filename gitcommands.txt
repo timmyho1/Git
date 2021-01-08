@@ -3,19 +3,82 @@ git --version
 sudo apt-get update
 sudo apt-get install git
 
-#2.3
+2.3
 git config --global user.name "USERNAME"
 git config --global user.email "USERMAIL"
 git config --global user.name
 git config --global user.email
 git config --global credential.helper store
 
-#2.5
+2.5
 alias gs='git status'
 alias ga='git add'
 alias gb='git branch'
 alias gc='git commit'
 alias gd='git diff'
 alias go='git checkout'
+
+3.1
+git clone https://github.com/SimplilearnGitHubTraining/sample-repository.git
+touch demo.txt
+git status
+git add demo.txt
+git status
+git commit -m ‘Third commit: Added a txt file’
+git push origin main
+
+3.2
+git status
+vi demo.txt
+This is a Demo.txt file
+git status
+git diff demo.txt
+git add demo.txt
+git diff demo.txt
+git log --oneline
+git commit -m "Fourth commit: Modified the txt file"
+git push origin main
+git log --oneline
+
+3.3.
+git log --oneline 
+$ git reset COMMIT_VALUE
+git log –oneline 
+git revert COMMIT_VALUE
+git log 
+
+3.4
+touch demo1.txt
+git add -A
+git status
+
+git clean -n
+$ git clean -f
+git clean -f -d
+
+
+3.5
+git status 
+git add 
+git commit –amend 
+git log –oneline 
+git log --oneline 
+vi editor 
+git status 
+git add . 
+git commit –amend 
+git commit –amend 
+git log –oneline
+ 
+
+
+
+
+
+
+
+
+
+
 
 
