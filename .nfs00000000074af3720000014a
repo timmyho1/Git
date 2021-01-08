@@ -3,19 +3,18 @@ git --version
 sudo apt-get update
 sudo apt-get install git
 
-#2.3
+2.3
 git config --global user.name "USERNAME"
 git config --global user.email "USERMAIL"
 git config --global user.name
 git config --global user.email
 git config --global credential.helper store
 
-#2.5
+2.5
 alias gs='git status'
 alias ga='git add'
 alias gb='git branch'
 alias gc='git commit'
 alias gd='git diff'
 alias go='git checkout'
-
 
